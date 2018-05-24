@@ -5,10 +5,10 @@ import Modal from '../../components/UI/Modal/Modal';
 import OrderSummary from '../../components/OrderSummary/OrderSummary';
 
 const INGREDIENT_PRICES = {
-    salad: 0.5,
-    bacon: 0.7,
-    cheese: 0.5,
-    meat: 0.6,
+    salad: 5,
+    bacon: 60,
+    cheese: 20,
+    meat: 35,
 }
 
 class BurgerBuilder extends React.Component{
@@ -20,7 +20,7 @@ class BurgerBuilder extends React.Component{
             cheese: 0,
             meat: 0,
         },
-        totalPrice: 4,
+        totalPrice: 15,
         purchasing: false,
     }
 
